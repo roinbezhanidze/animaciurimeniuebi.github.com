@@ -1,0 +1,43 @@
+#about{
+    background-color: grey;
+    text-align: center;
+    margin: 0px 0 20px 0;
+    padding: 50px;
+}
+#portfolio{
+    background-color: green;
+    text-align: center;
+    color: white;
+    margin: 0px 0 20px 0;
+    padding: 20px;
+}
+#contact{
+    background-color: yellowgreen;
+    text-align: center;
+    margin: 0px 0 20px 0;
+    padding: 50px;
+}
+img{
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 2em;
+}
+.myNavbar{
+    background-color:rgb(0,230,138);
+    font-weight: bold;
+    color: white;
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+}
+.nav{
+    background-color: rgb(0,230,138);
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    list-style-type: none;
+   
+}
+body{
+    padding-bottom: 70px;
+}

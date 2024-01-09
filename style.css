@@ -1,0 +1,127 @@
+body{  
+    display: flex;  
+    flex-direction: column;  
+    align-items: center;  
+    background-image: url(American-football-ppt-backgrounds.jpg);  
+}  
+html{  
+    background-color: #eee;  
+}  
+  
+*{  
+    margin: 0;  
+    padding: 0;  
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;  
+    list-style-type: none;  
+    color: black;  
+    text-decoration: none;  
+}  
+a,a:visited{  
+  
+}  
+.header, .hero, .content, .footer{  
+    width: 1120px;  
+    background-color: white;  
+    margin-top: 85px;  
+    padding: 50px;  
+    display: flex;  
+    justify-content: space-between;  
+    align-items: center;  
+    background: none;  
+  
+}  
+  
+.header{  
+    height: 23px;  
+}  
+.hero{  
+    height: 378px;  
+    padding-right: 10px;  
+    padding-top: 10px;  
+    width: 1170px;  
+    align-items: flex-start;  
+  
+}  
+.footer{  
+    height: 30px;  
+    background-color: black;  
+    opacity: 0.8;  
+    box-shadow: 0.336px 2.978px 7px 0px rgba(11,12,12,0.14);  
+    align-items: flex-start;  
+    padding-top: 100px;  
+  
+}  
+  
+.footer *{  
+    font-size: 12px;  
+    color: rgba(254,254,254, 0.502);  
+    text-transform: uppercase;  
+    line-height: 1.2;  
+}  
+.copyblock{  
+    display: flex;  
+    flex-direction: column;  
+    align-items: flex-end;  
+}  
+.social{  
+    border-top: 10px;  
+}  
+.logo, .herotext, .logofooter{  
+    margin-left: 50px;  
+}  
+.herotext{  
+    margin-top: 50px;  
+}  
+.navbar ul{  
+display: flex;  
+flex-flow: row wrap;  
+}  
+  
+.navbar li{  
+    padding: .5em;  
+    white-space: nowrap;  
+}  
+.search * {  
+    text-align: center;  
+    font-size: 13px;  
+    height: 24px;  
+    margin-right: 50px;  
+    border-width: 1px;  
+    border-color: rgb(194,194,194);  
+    border-style: solid;  
+  
+}  
+  
+.herotext{  
+    display: flex;  
+    flex-direction: column;  
+    align-items: flex-start;  
+    margin: 15px;  
+    margin-top: 50px;  
+    width: 380px;  
+}  
+  
+.herotext button{  
+    border-width: 1px;  
+    border-color: rgb(194,194,194);  
+    border-style: solid;  
+    width: 103px;  
+    height: 26px;  
+    background-color: white;  
+}  
+  
+.herotitle{  
+    font-size: 20px;  
+    color: rgb(146,16,38);  
+    line-height: 1.2;  
+}  
+  
+@font-face{  
+    font-family: GAJubo-Regular;  
+    src: url(GAJubo-Regular.otf);  
+    font-size: 25px;  
+}  
+  
+*{  
+    font-family:GAJubo-Regular;  
+}
